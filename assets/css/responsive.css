@@ -1,0 +1,396 @@
+@media (width <= 1366px){
+    .container {
+        max-width: 1366px;
+    }
+
+    header h1{
+        font-size:40px;
+    }
+    header .nav-header ul li{
+        font-size: 20px;
+    }
+
+    header .btn{
+        font-size: 15px;
+    }
+
+    /*home*/
+    .home .home-content h2{
+        font-size: 70px;
+    }
+    
+    .home .home-content p{
+        font-size: 20px;
+    }
+
+    .home .home-content .btn{
+        font-size: 20px;
+    }
+    .home .home-content .btn:nth-child(4){
+        font-size: 20px;
+    }
+
+    .home img{
+        height: 110%;
+        right: 13%;
+    }
+
+    .home .social-medias{
+        right: 13%;
+    }
+    
+    .home .square{
+        right: 13%;
+        width: 30%;
+        height: 65%;
+    }
+    .home .social-medias .icons p{
+        font-size: 15px;
+    }
+    .home .social-medias a{
+        font-size: 35px;
+    }
+
+    .services{
+        width: 100%;
+    }
+    .service-card {
+        width: 100%;
+        height: 100%;
+    }
+
+    .services .services-content h2{
+        font-size: 40px;
+    }
+    .services .service-card p{
+        font-size: 20px;
+    }
+    .service-card i {
+        font-size: 40px;
+    }
+    .service-card h3{
+        font-size: 30px;
+    }
+
+
+    .about .about-content h2{
+        font-size: 40px;
+    }
+    .about .about-content p{
+        font-size: 20px;
+    }
+
+    .about .about-content .btn{
+        font-size: 20px;
+    }
+
+    .about img{
+        height: 60%;
+        width:30%;
+    }
+
+
+    .team  h2{
+        font-size: 40px;
+    }
+
+    .team  p{
+        font-size: 18px;
+    }
+
+    .team img{
+        height: 60%;
+    }
+
+}
+
+
+@media (width <= 930px){
+    .container {
+        max-width: 930px;
+    }
+
+    header h1{
+        font-size:30px;
+    }
+    header .nav-header ul li{
+        font-size: 15px;
+    }
+
+    header .btn{
+        font-size: 12px;
+    }
+
+    /*home*/
+    .home .home-content h2{
+        font-size: 70px;
+    }
+    
+    .home .home-content p{
+        font-size: 15px;
+    }
+
+    .home .home-content .btn{
+        font-size: 15px;
+    }
+    .home .home-content .btn:nth-child(4){
+        font-size: 15px;
+    }
+
+    .home img{
+        height: 90%;
+        right: 5%;
+    }
+
+    .home .social-medias{
+        right: 13%;
+    }
+    
+    .home .square{
+        right: 10%;
+        width: 38%;
+        height: 50%;
+    }
+    .home .social-medias .icons p{
+        font-size: 15px;
+    }
+    .home .social-medias a{
+        font-size: 30px;
+    }
+
+
+
+    
+    .services{
+        width: 100%;
+    }
+    .service-card {
+        width: 100%;
+        height: auto;
+    }
+
+    .services .services-content h2{
+        font-size: 30px;
+    }
+    .services .service-card p{
+        font-size: 15px;
+    }
+    .service-card i {
+        font-size: 30px;
+    }
+    .service-card h3{
+        font-size: 25px;
+    }
+
+
+    .about .about-content h2{
+        font-size: 30px;
+    }
+    .about .about-content p{
+        font-size: 20px;
+    }
+
+    .about .about-content .btn{
+        font-size: 20px;
+    }
+
+    .about img{
+        height: 40%;
+    }
+
+
+    .team  h2{
+        font-size: 40px;
+    }
+
+    .team  p{
+        font-size: 18px;
+    }
+
+    .team img{
+        height: 60%;
+    }
+
+    .testimonials{
+        width: 100%;
+    }
+    .testimonials h2{
+        font-size: 30px;
+    }
+    .testimonials-grid {
+        height: 60%;
+    }
+    .testimonial-card{
+        padding: 20px;
+    }
+    .testimonial-card p{
+        font-size: 15px;
+    }
+    .testimonial-card h4 {
+        font-size: 20px;
+    }
+
+
+    .contact{
+        width: 100%;
+    }
+}
+
+@media (width <= 630px){
+    .container {
+        max-width: 630px;
+    }
+
+    header .nav-header.active-mobile{
+        display: none;
+    }
+    header .bar-button{
+        font-size: 30px;
+        margin-right: 5%;
+        display: block;
+    }
+
+    header h1{
+        font-size:30px;
+    }
+    header .nav-header ul li{
+        font-size: 15px;
+    }
+
+    header .btn{
+        font-size: 12px;
+    }
+
+    /*home*/
+    .home{
+        width: 100vw;
+        height: 100vh;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    .home img{
+        position: relative;
+        height: 50%;
+        width: 80%;
+        display: none;
+    }
+    .home .home-content{
+        width: 100%;
+        height: 100%;
+        margin-top: 70px;
+        background-color: #000;
+        align-items: center;
+        padding: 0;
+    }
+
+    .home .home-content h2{
+        font-size: 50px;
+    }
+    
+    .home .home-content p{
+        font-size: 15px;
+    }
+
+    .home .home-content .btn{
+        font-size: 15px;
+    }
+    .home .home-content .btn:nth-child(4){
+        font-size: 15px;
+    }
+
+
+    .home .social-medias{
+        right: 13%;
+    }
+    
+    .home .square{
+        display: none;
+    }
+    .home .social-medias .icons p{
+        font-size: 15px;
+    }
+    .home .social-medias a{
+        font-size: 30px;
+    }
+
+
+
+    
+    .services{
+        width: 100%;
+    }
+    .service-card {
+        width: 100%;
+        height: auto;
+    }
+
+    .services .services-content h2{
+        font-size: 30px;
+    }
+    .services .service-card p{
+        font-size: 15px;
+    }
+    .service-card i {
+        font-size: 30px;
+    }
+    .service-card h3{
+        font-size: 25px;
+    }
+
+
+    .about .about-content h2{
+        font-size: 30px;
+    }
+    .about .about-content p{
+        font-size: 20px;
+    }
+
+    .about .about-content .btn{
+        font-size: 20px;
+    }
+
+    .about img{
+        height: 40%;
+    }
+
+
+    .team  h2{
+        font-size: 40px;
+    }
+
+    .team  p{
+        font-size: 18px;
+    }
+
+    .team img{
+        height: 60%;
+    }
+
+    .testimonials{
+        width: 100%;
+    }
+    .testimonials h2{
+        font-size: 30px;
+    }
+    .testimonials-grid {
+        height: 60%;
+    }
+    .testimonial-card{
+        padding: 20px;
+    }
+    .testimonial-card p{
+        font-size: 15px;
+    }
+    .testimonial-card h4 {
+        font-size: 20px;
+    }
+
+
+    .contact{
+        width: 100%;
+    }
+}
