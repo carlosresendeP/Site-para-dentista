@@ -236,9 +236,9 @@
     }
 }
 
-@media (width <= 630px){
+@media (width <= 690px){
     .container {
-        max-width: 630px;
+        max-width:390px;
     }
 
     header .nav-header.active-mobile{
@@ -265,11 +265,17 @@
     .home{
         width: 100vw;
         height: 100vh;
+        display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin: 0;
-        padding: 0;
+
+
+    }
+
+    section{
+        width: 100vw;
+        height: 100%;
     }
 
     .home img{
@@ -282,9 +288,9 @@
         width: 100%;
         height: 100%;
         margin-top: 70px;
-        background-color: #000;
         align-items: center;
         padding: 0;
+        position: absolute;
     }
 
     .home .home-content h2{
@@ -330,6 +336,206 @@
 
     .services .services-content h2{
         font-size: 30px;
+    }
+    .services .service-card p{
+        font-size: 15px;
+    }
+    .service-card i {
+        font-size: 30px;
+    }
+    .service-card h3{
+        font-size: 25px;
+    }
+
+
+    .about .about-content h2{
+        font-size: 30px;
+    }
+    .about .about-content p{
+        font-size: 20px;
+    }
+
+    .about .about-content .btn{
+        font-size: 20px;
+    }
+
+    .about img{
+        height: 40%;
+    }
+
+
+    .team  h2{
+        font-size: 40px;
+    }
+
+    .team  p{
+        font-size: 18px;
+    }
+
+    .team img{
+        height: 60%;
+    }
+
+    .testimonials{
+        width: 100%;
+    }
+    .testimonials h2{
+        font-size: 30px;
+    }
+    .testimonials-grid {
+        height: 60%;
+    }
+    .testimonial-card{
+        padding: 20px;
+    }
+    .testimonial-card p{
+        font-size: 15px;
+    }
+    .testimonial-card h4 {
+        font-size: 20px;
+    }
+
+
+    .contact{
+        width: 100%;
+    }
+}
+
+@media (width <= 390px){
+    .container {
+        max-width: 630px;
+    }
+
+    section{
+        width: 100vw;
+        height: 100%;
+        margin: 0 a;
+    }
+
+    header{
+        width: 100%;
+        height: 30px;
+        gap: 10px;
+        margin-top: 20px;
+        align-items: left;
+        justify-content: left;
+    }
+
+    header .nav-header.active-mobile{
+        display: none;
+    }
+    header .bar-button{
+        font-size: 30px;
+        margin-right: 5%;
+        display: block;
+
+    }
+
+    header h1{
+        font-size:20px;
+    }
+    header .nav-header ul li{
+        font-size: 15px;
+    }
+
+    header .btn{
+        font-size: 10px;
+        max-width: 70%;
+        padding: 5px;
+    }
+
+    /*home*/
+    .home{
+        width: 100%;
+        height: 100vh;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    .home img{
+        position: relative;
+        height: 50%;
+        width: 80%;
+        display: none;
+    }
+    .home .home-content{
+        width: 100%;
+        height: 40%;
+        margin-top: 70px;
+        align-items: center;
+        text-align: center;
+        padding: 0;
+        position: relative;
+    }
+
+    .home .home-content h2{
+        font-size: 30px;
+    }
+    
+    .home .home-content p{
+        font-size: 12px;
+    }
+
+    .home .home-content .btn{
+        font-size: 15px;
+    }
+    .home .home-content .btn:nth-child(4){
+        font-size: 15px;
+    }
+
+
+    .home .social-medias{
+        flex-direction: row;
+        bottom:0%;
+        height: auto;
+        left: 55%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .home .square{
+        display: none;
+    }
+    .home .social-medias .icons p{
+        font-size: 15px;
+    }
+    .home .social-medias a{
+        font-size: 30px;
+    }
+
+
+
+    
+    .services{
+        width: 100%;
+        height: 100%;
+        padding: 0 0;
+    }
+    .service-card {
+        width: 80%;
+        height: auto;
+        margin-left: 12%;
+    }
+
+    .services .services-content{
+        height: 100%;
+    }
+    .services-grid {
+        display: gird;
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+
+        align-items: center;
+        justify-content: center;
+    }
+
+    .services .services-content h2{
+        font-size: 20px;
+    }
+    .services h2{
+        font-size: 40px;
     }
     .services .service-card p{
         font-size: 15px;
