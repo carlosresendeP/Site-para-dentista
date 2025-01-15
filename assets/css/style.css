@@ -353,7 +353,7 @@ header .btn:hover{
     gap: 30px;
 }
 
-.about-content h2 {
+.about h2 {
     color: var(--primary-color);
     font-size: 60px;
     font-family: var(--fontspecial);
