@@ -1,268 +1,293 @@
-@media (width <= 1366px){
+@media (width <=1366px) {
     .container {
         max-width: 1366px;
     }
 
-    header h1{
-        font-size:40px;
+    header h1 {
+        font-size: 40px;
     }
-    header .nav-header ul li{
+
+    header .nav-header ul li {
         font-size: 20px;
     }
 
-    header .btn{
+    header .btn {
         font-size: 15px;
     }
 
     /*home*/
-    .home .home-content h2{
+    .home .home-content h2 {
         font-size: 70px;
     }
-    
-    .home .home-content p{
+
+    .home .home-content p {
         font-size: 20px;
     }
 
-    .home .home-content .btn{
-        font-size: 20px;
-    }
-    .home .home-content .btn:nth-child(4){
+    .home .home-content .btn {
         font-size: 20px;
     }
 
-    .home img{
+    .home .home-content .btn:nth-child(4) {
+        font-size: 20px;
+    }
+
+    .home img {
         height: 110%;
         right: 13%;
     }
 
-    .home .social-medias{
+    .home .social-medias {
         right: 13%;
     }
-    
-    .home .square{
+
+    .home .square {
         right: 13%;
         width: 30%;
         height: 65%;
     }
-    .home .social-medias .icons p{
+
+    .home .social-medias .icons p {
         font-size: 15px;
     }
-    .home .social-medias a{
+
+    .home .social-medias a {
         font-size: 35px;
     }
 
-    .services{
+    .services {
         width: 100%;
     }
+
     .service-card {
         width: 100%;
         height: 100%;
     }
 
-    .services .services-content h2{
+    .services .services-content h2 {
         font-size: 40px;
     }
-    .services .service-card p{
+
+    .services .service-card p {
         font-size: 20px;
     }
+
     .service-card i {
         font-size: 40px;
     }
-    .service-card h3{
+
+    .service-card h3 {
         font-size: 30px;
     }
 
 
-    .about h2{
+    .about h2 {
         font-size: 40px;
     }
-    .about .about-content p{
+
+    .about .about-content p {
         font-size: 20px;
     }
 
-    .about .about-content .btn{
+    .about .about-content .btn {
         font-size: 20px;
     }
 
-    .about img{
+    .about img {
         height: 60%;
-        width:30%;
+        width: 30%;
     }
 
 
-    .team  h2{
+    .team h2 {
         font-size: 40px;
     }
 
-    .team  p{
+    .team p {
         font-size: 18px;
     }
 
-    .team img{
+    .team img {
         height: 60%;
     }
 
 }
 
 
-@media (width <= 930px){
+@media (width <=930px) {
     .container {
         max-width: 930px;
     }
 
-    header h1{
-        font-size:30px;
+    header h1 {
+        font-size: 30px;
     }
-    header .nav-header ul li{
+
+    header .nav-header ul li {
         font-size: 15px;
     }
 
-    header .btn{
+    header .btn {
         font-size: 12px;
     }
 
     /*home*/
-    .home .home-content h2{
+    .home .home-content h2 {
         font-size: 70px;
     }
-    
-    .home .home-content p{
+
+    .home .home-content p {
         font-size: 15px;
     }
 
-    .home .home-content .btn{
-        font-size: 15px;
-    }
-    .home .home-content .btn:nth-child(4){
+    .home .home-content .btn {
         font-size: 15px;
     }
 
-    .home img{
+    .home .home-content .btn:nth-child(4) {
+        font-size: 15px;
+    }
+
+    .home img {
         height: 90%;
         right: 5%;
     }
 
-    .home .social-medias{
+    .home .social-medias {
         right: 13%;
     }
-    
-    .home .square{
+
+    .home .square {
         right: 10%;
         width: 38%;
         height: 50%;
     }
-    .home .social-medias .icons p{
+
+    .home .social-medias .icons p {
         font-size: 15px;
     }
-    .home .social-medias a{
+
+    .home .social-medias a {
         font-size: 30px;
     }
 
 
 
-    
-    .services{
+
+    .services {
         width: 100%;
     }
+
     .service-card {
         width: 100%;
         height: auto;
     }
 
-    .services .services-content h2{
+    .services .services-content h2 {
         font-size: 30px;
     }
-    .services .service-card p{
+
+    .services .service-card p {
         font-size: 15px;
     }
+
     .service-card i {
         font-size: 30px;
     }
-    .service-card h3{
+
+    .service-card h3 {
         font-size: 25px;
     }
 
 
-    .about h2{
+    .about h2 {
         font-size: 30px;
     }
-    .about .about-content p{
+
+    .about .about-content p {
         font-size: 20px;
     }
 
-    .about .about-content .btn{
+    .about .about-content .btn {
         font-size: 20px;
     }
 
-    .about img{
+    .about img {
         height: 40%;
     }
 
 
-    .team  h2{
+    .team h2 {
         font-size: 40px;
     }
 
-    .team  p{
+    .team p {
         font-size: 18px;
     }
 
-    .team img{
+    .team img {
         height: 60%;
     }
 
-    .testimonials{
+    .testimonials {
         width: 100%;
     }
-    .testimonials h2{
+
+    .testimonials h2 {
         font-size: 30px;
     }
+
     .testimonials-grid {
         height: 60%;
     }
-    .testimonial-card{
+
+    .testimonial-card {
         padding: 20px;
     }
-    .testimonial-card p{
+
+    .testimonial-card p {
         font-size: 15px;
     }
+
     .testimonial-card h4 {
         font-size: 20px;
     }
 
 
-    .contact{
+    .contact {
         width: 100%;
     }
 }
 
-@media (width <= 690px){
+@media (width <=690px) {
     .container {
-        max-width:390px;
+        max-width: 390px;
     }
 
-    header .nav-header.active-mobile{
+    header .nav-header.active-mobile {
         display: none;
     }
-    header .bar-button{
+
+    header .bar-button {
         font-size: 30px;
         margin-right: 5%;
         display: block;
     }
 
-    header h1{
-        font-size:30px;
+    header h1 {
+        font-size: 30px;
     }
-    header .nav-header ul li{
+
+    header .nav-header ul li {
         font-size: 15px;
     }
 
-    header .btn{
+    header .btn {
         font-size: 12px;
     }
 
     /*home*/
-    .home{
+    .home {
         width: 100vw;
         height: 100vh;
         display: flex;
@@ -273,18 +298,19 @@
 
     }
 
-    section{
+    section {
         width: 100vw;
         height: 100%;
     }
 
-    .home img{
+    .home img {
         position: relative;
         height: 50%;
         width: 80%;
         display: none;
     }
-    .home .home-content{
+
+    .home .home-content {
         width: 100%;
         height: 100%;
         margin-top: 70px;
@@ -293,126 +319,139 @@
         position: absolute;
     }
 
-    .home .home-content h2{
+    .home .home-content h2 {
         font-size: 50px;
     }
-    
-    .home .home-content p{
+
+    .home .home-content p {
         font-size: 15px;
     }
 
-    .home .home-content .btn{
+    .home .home-content .btn {
         font-size: 15px;
     }
-    .home .home-content .btn:nth-child(4){
+
+    .home .home-content .btn:nth-child(4) {
         font-size: 15px;
     }
 
 
-    .home .social-medias{
+    .home .social-medias {
         right: 13%;
     }
-    
-    .home .square{
+
+    .home .square {
         display: none;
     }
-    .home .social-medias .icons p{
+
+    .home .social-medias .icons p {
         font-size: 15px;
     }
-    .home .social-medias a{
+
+    .home .social-medias a {
         font-size: 30px;
     }
 
 
 
-    
-    .services{
+
+    .services {
         width: 100%;
     }
+
     .service-card {
         width: 100%;
         height: auto;
     }
 
-    .services .services-content h2{
+    .services .services-content h2 {
         font-size: 30px;
     }
-    .services .service-card p{
+
+    .services .service-card p {
         font-size: 15px;
     }
+
     .service-card i {
         font-size: 30px;
     }
-    .service-card h3{
+
+    .service-card h3 {
         font-size: 25px;
     }
 
 
-    .about h2{
+    .about h2 {
         font-size: 30px;
     }
-    .about .about-content p{
+
+    .about .about-content p {
         font-size: 20px;
     }
 
-    .about .about-content .btn{
+    .about .about-content .btn {
         font-size: 20px;
     }
 
-    .about img{
+    .about img {
         height: 40%;
     }
 
 
-    .team  h2{
+    .team h2 {
         font-size: 40px;
     }
 
-    .team  p{
+    .team p {
         font-size: 18px;
     }
 
-    .team img{
+    .team img {
         height: 60%;
     }
 
-    .testimonials{
+    .testimonials {
         width: 100%;
     }
-    .testimonials h2{
+
+    .testimonials h2 {
         font-size: 30px;
     }
+
     .testimonials-grid {
         height: 60%;
     }
-    .testimonial-card{
+
+    .testimonial-card {
         padding: 20px;
     }
-    .testimonial-card p{
+
+    .testimonial-card p {
         font-size: 15px;
     }
+
     .testimonial-card h4 {
         font-size: 20px;
     }
 
 
-    .contact{
+    .contact {
         width: 100%;
     }
 }
 
-@media (width <= 390px){
+@media (width <=390px) {
     .container {
         max-width: 630px;
     }
 
-    section{
+    section {
         width: 100vw;
         height: 100%;
         margin: 0 auto;
     }
 
-    header{
+    header {
         width: 100%;
         height: 30px;
         gap: 4px;
@@ -421,30 +460,32 @@
         justify-content: space-between;
     }
 
-    header .nav-header.active-mobile{
+    header .nav-header.active-mobile {
         display: none;
     }
-    header .bar-button{
+
+    header .bar-button {
         font-size: 30px;
         display: block;
 
     }
 
-    header h1{
-        font-size:20px;
+    header h1 {
+        font-size: 20px;
     }
-    header .nav-header ul li{
+
+    header .nav-header ul li {
         font-size: 15px;
     }
 
-    header .btn{
+    header .btn {
         font-size: 10px;
         max-width: 70%;
         padding: 5px;
     }
 
     /*home*/
-    .home{
+    .home {
         width: 100%;
         height: 100vh;
         flex-direction: column;
@@ -454,13 +495,14 @@
         padding: 0;
     }
 
-    .home img{
+    .home img {
         position: relative;
         height: 50%;
         width: 80%;
         display: none;
     }
-    .home .home-content{
+
+    .home .home-content {
         width: 100%;
         height: 40%;
         margin-top: 70px;
@@ -470,57 +512,62 @@
         position: relative;
     }
 
-    .home .home-content h2{
-        font-size: 30px;
+    .home .home-content h2 {
+        font-size: 40px;
     }
-    
-    .home .home-content p{
+
+    .home .home-content p {
         font-size: 12px;
     }
 
-    .home .home-content .btn{
+    .home .home-content .btn {
         font-size: 15px;
     }
-    .home .home-content .btn:nth-child(4){
+
+    .home .home-content .btn:nth-child(4) {
         font-size: 15px;
     }
 
 
-    .home .social-medias{
+    .home .social-medias {
         flex-direction: row;
-        bottom:0%;
+        bottom: 0%;
         height: auto;
-        left: 55%;
+        left: 50%;
         transform: translate(-50%, -50%);
     }
-    
-    .home .square{
+
+    .home .square {
         display: none;
     }
-    .home .social-medias .icons p{
+
+    .home .social-medias .icons p {
         font-size: 15px;
     }
-    .home .social-medias a{
+
+    .home .social-medias a {
         font-size: 30px;
     }
 
 
 
-    
-    .services{
+
+    .services {
         width: 100%;
         height: 100%;
         padding: 0 0;
     }
+
     .service-card {
         width: 80%;
         height: auto;
         margin-left: 12%;
     }
 
-    .services .services-content{
+    .services .services-content {
         height: 100%;
     }
+
     .services-grid {
         display: gird;
         grid-template-columns: repeat(1, 1fr);
@@ -530,29 +577,35 @@
         justify-content: center;
     }
 
-    .services .services-content h2{
+    .services .services-content h2 {
         font-size: 20px;
     }
-    .services h2{
+
+    .services h2 {
         font-size: 40px;
     }
-    .services .service-card p{
+
+    .services .service-card p {
         font-size: 15px;
     }
+
     .service-card i {
         font-size: 30px;
     }
-    .service-card h3{
+
+    .service-card h3 {
         font-size: 25px;
     }
 
-    .about{
+    .about {
         width: 100%;
         height: 100%;
         padding: 0 0;
-        position: relative;;
+        position: relative;
+        ;
     }
-    .about .about-content{
+
+    .about .about-content {
         height: 100vh;
         align-items: center;
         justify-content: center;
@@ -569,16 +622,82 @@
     }
 
 
-    .about h2{
+    .about h2 {
         font-size: 30px;
         text-align: center;
     }
 
-    .about .about-content p{
+    .about .about-content p {
         font-size: 20px;
     }
 
-    .about .about-content .btn{
+    .about .about-content .btn {
         font-size: 20px;
+    }
+
+    .team {
+        padding: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .team h2 {
+        font-size: 30px;
+
+    }
+
+    .team-grid {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+        align-items: center;
+    }
+
+    .team p {
+        font-size: 18px;
+    }
+
+    .team img {
+        width: 60%;
+        height: 60%;
+    }
+
+
+
+    .testimonial-card {
+        padding: 20px;
+    }
+
+    .testimonial-card p {
+        font-size: 15px;
+    }
+
+    .testimonial-card h4 {
+        font-size: 20px;
+    }
+
+    .swiper {
+        width: 100%;
+        height: 100vh;
+    }
+
+    .swiper-wrapper {
+        width: 100%;
+        height: 100%;
+        display: flex;
+    }
+
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        width: 100%;
+        height: auto;
+    }
+
+
+
+
+    .contact {
+        width: 100%;
     }
 }
